@@ -1,7 +1,7 @@
 package dcelevators;
 
 //this class handles basic information about a request for an elevator
-//i have choosen to do the simple implementation of requests being between two floors at a time
+//I have chosen to do the simple implementation of requests being between two floors at a time
 public class Request {
 
     private final int pickupFloor;
@@ -21,8 +21,7 @@ public class Request {
         this.targetFloor= targetFloor;
         this.direction = direction;
     }
-
-
+    
     public int getPickupFloor()
     {
         return pickupFloor;
